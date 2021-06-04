@@ -31,9 +31,49 @@
                 </table>
                 <form action="">
                     <div class="mb-3">
-                        
-                    </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="mb-3">
+                                <label for="priority" class="form-label">Set Priority</label>
+                            
+                                <select name="priority" id="priority" class="form-select">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="mb-3">
+                                    <label for="duedate" class="form-label">Due Date</label>
+                                    <input type="date" class="form-control" placeholder="07/01/2021" name="duedate">
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+
+                                <div class="mb-3 form-floating">
+                                    <input type="text" class="form-control" placeholder="To-Do" name="todo">
+                                    <label for="todo">Task</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary">Submit Task</button>
+                            </div>
+                        </div>
+                    </div>
                 </form> 
             </div>
             <div class="col-sm-3"></div>
