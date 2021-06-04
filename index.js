@@ -1,16 +1,6 @@
 let submitButton = document.getElementById('submit');
 let todoList = document.getElementById('todoList');
-function addTask(taskValues) {
-    let newTaskRow = document.createElement('tr');
 
-    taskValues.forEach((value) => { 
-        newTaskRow.appendChild()
-    })
-    let newTaskPriority = document.createElement('td');
-    newTaskPriority.innerHTML = priority;
-    let newTaskDueDate = document.createElement('td');
-
-}
 submitButton.addEventListener('click', function(e) {
     let form = document.getElementById('taskSubmit');
 
@@ -22,6 +12,4 @@ submitButton.addEventListener('click', function(e) {
     let addCellToDo = addRow.insertCell();
     addCellToDo.innerHTML = form.elements['todo'].value;
 
-
-    console.log('Hi');
 })
